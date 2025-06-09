@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basics of Web Development</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 30px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Basics of Web Development</h1>
+    
+    <p>Welcome! This simple web page demonstrates the basic concepts of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+
+    <p>Start learning web development from trusted resources:</p>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/" target="_blank">Learn HTML - W3Schools</a></li>
+      <li><a href="https://www.w3schools.com/css/" target="_blank">Learn CSS - W3Schools</a></li>
+      <li><a href="https://www.w3schools.com/js/" target="_blank">Learn JavaScript - W3Schools</a></li>
+    </ul>
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools Logo">
+
+    <button onclick="showMessage()">Click Me!</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Hello! You just triggered a JavaScript alert.");
+    }
+  </script>
+</body>
+</html>
